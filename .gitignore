@@ -1,0 +1,8 @@
+# Dependencies directory
+node_modules
+
+# Environment variables
+.env
+
+# Telegraf
+sessions.json
