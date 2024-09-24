@@ -6,8 +6,8 @@ const Bot = require('./lib/bot');
 const priceTracker = require('./lib/price-tracker');
 const Alert = require('./lib/templates/alert');
 
-const mongoConnectionURI = config.get('mongo.connectionURI');
-const telegramBotToken = config.get('telegram.token');
+const mongoConnectionURI = process.env.MONGO_CONNECTION_URI || config.get('mongo.connectionURI');
+const telegramBotToken = process.env.TELEGRAM_BOT_TOKEN || config.get('telegram.token');
 
 const bot = new Bot(telegramBotToken);
 

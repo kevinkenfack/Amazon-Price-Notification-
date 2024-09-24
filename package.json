@@ -34,6 +34,7 @@
     "dotenv-cli": "^4.0.0",
     "extract-domain": "^2.2.1",
     "log4js": "^6.3.0",
+    "mongodb": "^6.9.0",
     "mongoose": "^5.12.4",
     "parse-money": "^1.0.12",
     "puppeteer": "^8.0.0",

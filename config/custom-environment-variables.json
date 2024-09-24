@@ -7,7 +7,7 @@
   },
   "tracker": {
     "polling": {
-      "averageInterval": "AVERAGE_POLLING_INTERVAL"
+      "averageInterval": 7200
     }
   }
 }
